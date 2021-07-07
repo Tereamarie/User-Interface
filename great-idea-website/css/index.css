@@ -48,7 +48,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+ {
     box-sizing: border-box;
 }
 
@@ -64,3 +64,188 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	
+	background: url("https://wallpapercave.com/wp/wp4685324.jpg");
+	font-family: roboto;;
+	background-size: cover;
+	font-family: roboto;
+	
+  
+  }
+.container {
+	width: 800px;
+	margin: 0 auto;
+
+	}
+	
+	
+p {
+	font-family: 'Courgette', cursive;	
+}
+.top-container {
+	
+	position:fixed;
+	margin: 0 auto;
+    border: 1px solid lightgray;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    background: rgb(110, 11, 11);
+    box-shadow:10px 10px 5px  orangered;
+}
+
+
+nav {
+	display: inline-block;
+	text-decoration: none;
+    margin-bottom: 20px;
+	box-shadow:10px 10px 5px  black;
+}
+
+nav a {
+	
+	
+	background:orange;
+	margin: 0 6px;
+	color: green;
+	text-decoration: none;
+	border: 1px solid red;
+	padding:5px;
+	border-radius:10PX;
+	
+	
+}
+
+ 
+ nav a:hover {
+	background: green;
+	color: greenyellow;
+	text-decoration: none;
+	border: 1px solid blue;
+	padding:5px;
+	border-radius:10PX;
+	
+	-webkit-transition: .3s;
+    transition: .3s;
+    transform: rotate(360deg);
+}
+.logo {
+	background:white;
+	display: inline-block;
+	margin: 20px 0 -11px 50px;
+	border-radius: 5px;
+	
+	
+}
+
+.header-content {
+	display: block;
+}
+
+ 
+
+.main-heading  {
+	width: 400px;
+	margin: 5px;
+	display: inline-block;
+  margin-top: 120px;
+}
+.main-heading h1 {
+	padding: 0px;
+	margin: 80px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.main-heading button {
+	background: blue;
+	margin: -500px 110px 110px 110px ;
+	padding: 5px 33px;
+	font-size: 13px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow:10px 10px 5px  black;
+	
+}
+.main-heading button:hover {
+	background:red;
+	margin: -500px 110px 110px 110px ;
+	padding: 5px 33px;
+	font-size: 13px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow:10px 10px 5px  black;
+	-webkit-transition: .3s;
+    transition: .3s;
+    transform: rotate(360deg);
+}
+
+
+.main-img {
+	
+	margin-bottom: 30px;
+	width: 50px;
+	
+	
+}
+
+.top-content {
+	width: 800px;
+	border-top: 1px solid black;
+	margin-top: 20px;
+}
+
+.top-left {
+	display: inline-block;
+	width: 380px;
+	margin: 20px 0;
+}
+
+.top-right {
+	display: inline-block;
+	width: 380px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	width: 800px;
+	margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid black;
+}
+
+.bottom-left {
+	display: inline-block;
+	width: 250px;	
+	margin-right: 13px;
+}
+
+.bottom-middle {
+	display: inline-block;
+	width: 250px;
+	margin-right:13px;
+  margin-bottom: 20px;
+}
+
+.bottom-right {
+	display: inline-block;
+	width: 250px;
+	margin-right: 0;
+}
+
+address h2 {
+	margin: 20px;
+}
+
+footer p {
+	margin: 30px 0;
+	text-align: center;
+}
+
+
